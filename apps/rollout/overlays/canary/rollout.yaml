@@ -37,10 +37,10 @@ spec:
       stableService: canary-stable
       steps:
       - setWeight: 20
-      - pause: {duration: 30}
+      - pause: {duration: 20}
       - setWeight: 40
-      - pause: {duration: 30}
+      - pause: {duration: 20}
       - setWeight: 60
-      - pause: {duration: 20}
+      - pause: {duration: 10}
       - setWeight: 80
-      - pause: {duration: 20}
+      - pause: {duration: 10}
